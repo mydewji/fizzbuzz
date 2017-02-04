@@ -3,6 +3,7 @@ Write a program that prints out numbers from 1 to 100,
 but for numbers divisible by 3 prints out "Fizz", 
 for numbers divisible by 5 prints out "Buzz" 
 and for numbers divisible by both prints out "FizzBuzz".
+**PYTHON 3 IMPLEMENTATION**
 """
 
 for number in range(1,100):
@@ -14,4 +15,4 @@ for number in range(1,100):
 		str += "buzz"
 	else: 
 		str = number
-	print str
+	print (str)
